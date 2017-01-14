@@ -1,0 +1,24 @@
+{
+    "name": "cron/tasks",
+    "description": "Create and manage recurrig cron tasks with a database as the arbitrator",
+    "authors": [
+        { 
+            "name": "JonNathan Moreno",
+            "email": "jon_moreno@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cron\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cron\\Tests\\": "tests/"
+        }
+    }
+}
