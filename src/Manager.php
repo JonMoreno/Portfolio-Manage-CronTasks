@@ -10,7 +10,7 @@ class Manager
 | Class: SchemaInterface                                                      
 |-------------------------------------------------------------------------------
 | Purpose: 
-| Very simple class thant will register, validate and run cron job.
+| Very simple class that will register, validate and run cron job.
 | Mostly for demonstrational purpose however class needs decoupling.
 | This class uses sqlite3 but again is only for demonstrational puposes.
 | MySql will be the one use for production because it offers better features
